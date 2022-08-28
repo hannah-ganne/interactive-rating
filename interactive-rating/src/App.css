@@ -83,6 +83,16 @@ body {
     color: var(--light-gray-color)
 }
 
+.round-btn:hover {
+    background-color: var(--light-gray-color);
+    color: var(--white-color);
+}
+
+.round-btn:focus {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
 .main-btn {
     width: 100%;
     color: var(--white-color);
@@ -93,6 +103,11 @@ body {
     padding: 10px;
     margin-top: 30px;
     font-weight: bold;
+}
+
+.main-btn:hover {
+    background-color: var(--white-color);
+    color: var(--orange-color);
 }
 
 .rating {
