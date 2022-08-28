@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lanomade/interactive-rating/static/css/main.fee6649e.css",
+    "main.js": "/lanomade/interactive-rating/static/js/main.8b8e8bc9.js",
+    "static/media/illustration-thank-you.svg": "/lanomade/interactive-rating/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/lanomade/interactive-rating/index.html",
+    "static/media/icon-star.svg": "/lanomade/interactive-rating/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.fee6649e.css.map": "/lanomade/interactive-rating/static/css/main.fee6649e.css.map",
+    "main.8b8e8bc9.js.map": "/lanomade/interactive-rating/static/js/main.8b8e8bc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee6649e.css",
+    "static/js/main.8b8e8bc9.js"
+  ]
+}
