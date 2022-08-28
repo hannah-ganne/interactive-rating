@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --orange-color: hsl(25, 97%, 53%);
+    --white-color: hsl(0, 0%, 100%);
+    --light-gray-color: hsl(217, 12%, 63%);
+    --medium-gray-color: hsl(216, 12%, 54%);
+    --dark-blue-color: hsl(213, 19%, 18%);
+    --very-dark-blue-color: hsl(216, 12%, 8%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container, .thankyou-container {
+    background-color: var(--very-dark-blue-color);
+    width: 380px;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.container h2, .thankyou-container h2 {
+    color: var(--white-color)
+}
+
+.container p, .thankyou-container p {
+    color: var(--light-gray-color);
+    font-size: 15px;
+}
+
+.thankyou-container p {
+    text-align: center;
+}
+
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.round-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--dark-blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray-color)
+}
+
+.main-btn {
+    width: 100%;
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: var(--orange-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.rating {
+    background-color: var(--dark-blue-color);
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin: 30px 0 10px 0;
+    color: var(--orange-color);
+    font-size: 15px;
+}
+
+.attribution {
+    color: var(--white-color);
+    position: absolute;
+    bottom: 10px;
+}
+
