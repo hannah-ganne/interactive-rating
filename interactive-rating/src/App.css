@@ -31,6 +31,7 @@ p {
 body {
     font-family: 'Overpass', sans-serif;
     margin: 0;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +41,8 @@ body {
 
 .container, .thankyou-container {
     background-color: var(--very-dark-blue-color);
-    width: 380px;
+    min-width: 300px;
+    max-width: 350px;
     height: fit-content;
     border-radius: 15px;
     padding: 40px;
@@ -122,6 +124,8 @@ body {
 .attribution {
     color: var(--white-color);
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
+    margin: auto;
+    font-size: 15px;
 }
 
