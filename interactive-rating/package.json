@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/lanomade/interactive-rating",
   "name": "interactive-rating",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://hannah-ganne.github.io/interactive-rating"
 }
